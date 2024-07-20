@@ -14,7 +14,9 @@
     <title>WebStudio</title>
 </head>
 <body>
-    <header class="head">
+
+    <!-- #region Header -->
+    <header class="head hide">
         <div class="container">
             <nav class="nav">
                 <a class="logo-web" href="./index.html">WEB<span class="logo-studio-black">Studio</span></a>
@@ -41,14 +43,20 @@
             </button>
         </div>
     </header>
-    
+    <!-- #endregion -->
+
     <main>
-    <section class="box hide">
+
+    <!-- #region Big Picture -->
+    <section class="box">
         <div class="container">
             <h1 class="box-sentence">Effective Solutions for Your Business</h1>
             <button type="button" class="btn">Order Service</button>
         </div>
     </section>
+    <!-- #endregion -->
+
+    <!-- #region Second Section Features -->
     <section class="section second hide">
         <div class="container">
             <h2 class="visually-hidden">Features</h2>
@@ -92,7 +100,10 @@
             </ul>
         </div>
     </section>
-    <section class="team-box section hide">
+    <!-- #endregion -->
+     
+    <!-- #region Third Section Team -->
+    <section class="team-box section">
         <div class="container">
             <h2 class="headers">Our Team</h2>
             <ul class="card-set">
@@ -243,7 +254,9 @@
             </ul>
         </div>
     </section>
+    <!-- #endregion -->
 
+    <!-- #region Fourth Section Portfolio -->
     <section class="section fourth hide">
         <div class="container">
             <h2 class="headers">Our Portfolio</h2>
@@ -317,8 +330,11 @@
             </ul>
         </div>
     </section>
+    <!-- #endregion -->
     
     </main>
+
+    <!-- #region Footer -->
     <footer class="footer-box hide">
         <div class="container">
             <div class="footer-lefttext">
@@ -377,6 +393,9 @@
             </div>
         </div>
     </footer>
+    <!-- #endregion -->
+
+    <!-- #region Modal Screen -->
     <div class="backdrop">
         <div class="modal">
             <button class="modal-close-btn" type="button">
@@ -452,5 +471,92 @@
             </form>
         </div>
     </div>
+    <!-- #endregion -->
+
+    <!-- #region Mobile menu -->
+    <div class="mobile-menu">
+        <button class="mobile-menu-btn" type="button" aria-label="Mobile menu close button">
+            <svg class="mobile-menu-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-close"></use>
+            </svg>
+        </button>
+        <ul class="mobile-menu-list">
+            <li class="mobile-menu-item">
+                <a class="mobile-menu-link active" href="">Studio</a>
+            </li>
+            <li class="mobile-menu-item">
+                <a class="mobile-menu-link" href="">Portfolio</a>
+            </li>
+            <li class="mobile-menu-item">
+                <a class="mobile-menu-link" href="">Contacts</a>
+            </li>
+        </ul>
+
+        <ul class="mobile-menu-contacts">
+            <li class="mobile-menu-contact-item">
+                <a  class="mobile-menu-contact-link accent" href="tel:+110001111111">+11 (000) 111-11-11</a>
+            </li>
+            <li class="mobile-menu-contact-item">
+                <a  class="mobile-menu-contact-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+            </li>
+        </ul>
+
+        <ul class="mobile-menu-socials footer-rightlist">
+            <li class="footer-right-icon">
+                <a 
+                    href="https://instagram.com" 
+                    class="footer-icons-link"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    area-label="Link to Instagram site"
+                >
+                    <svg class="footer-icons" width="24" height="24">
+                        <use href="./images/icons.svg#icon-instagram"></use>
+                    </svg>
+                </a>
+            </li>
+            <li class="footer-right-icon">
+                <a 
+                    href="https://twitter.com"
+                    class="footer-icons-link"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    area-label="Link to Twitter site"
+                >
+                    <svg class="footer-icons" width="24" height="24">
+                        <use href="./images/icons.svg#icon-twitter"></use>
+                    </svg>
+                </a>
+            </li>
+            <li class="footer-right-icon">
+                <a
+                    href="htpps://facebook.com" 
+                    class="footer-icons-link"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    area-label="Link to Facebook site"
+                >
+                    <svg class="footer-icons" width="24" height="24">
+                        <use href="./images/icons.svg#icon-facebook"></use>
+                    </svg>
+                </a>
+            </li>
+            <li class="footer-right-icon">
+                <a 
+                    href="htpps://linkedin.com" 
+                    class="footer-icons-link"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    area-label="Link to LinkedIn site"
+                >
+                    <svg class="footer-icons" width="24" height="24">
+                        <use href="./images/icons.svg#icon-linkedin"></use>
+                    </svg>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <!-- #endregion -->
+
 </body>
 </html>

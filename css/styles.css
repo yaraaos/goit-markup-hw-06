@@ -683,7 +683,7 @@ ul {
 /*////// Footer //////*/
 .footer-box { 
     background-color: var(--darkblue-color);    
-    padding: 96px 16px;
+    padding: 96px 0;
 }
 .logo-studio-white {
     color: var(--darkwhite-color);
@@ -710,6 +710,10 @@ ul {
     gap: 16px;
 }
 
+.footer-righttext {
+    width: 208px;
+    margin: 0 auto;
+}
 @media only screen and (min-width: 1158px) {
     .footer-righttext {
         margin-right: 80px;
@@ -747,7 +751,6 @@ ul {
     flex-direction: row;
     gap: 72px;
     flex-wrap: wrap;
-    
 
 }        
 
@@ -778,6 +781,7 @@ ul {
     letter-spacing: 0.02em;
     color: #fff;
     margin-bottom: 16px;
+    text-align: center;
 }
 @media only screen and (min-width: 768px) {
     .footer-social {
@@ -822,6 +826,12 @@ ul {
     letter-spacing: 0.02em;
     color: #fff;
     margin-bottom: 16px;  
+    text-align: center;
+}
+@media only screen and (min-width: 768px) {
+  .subscribe-p {
+    text-align: left;
+  }
 }
 
 /*.subscribe-wrapper {
